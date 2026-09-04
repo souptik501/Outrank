@@ -101,28 +101,32 @@ export default function Home() {
     },
   ];
 
-  const projects = [
-    {
-      number: "01",
-      title: "Restaurant",
-      category: "Brand + Web + Social",
-    },
-    {
-      number: "02",
-      title: "Fitness Studio",
-      category: "Web + Content + Ads",
-    },
-    {
-      number: "03",
-      title: "Real Estate",
-      category: "Web + Lead Generation",
-    },
-    {
-      number: "04",
-      title: "Dental Practice",
-      category: "SEO + Web + Automation",
-    },
-  ];
+const projects = [
+  {
+    number: "01",
+    title: "Restaurant",
+    category: "Brand + Web + Social",
+    image: "/restaurant.svg",
+  },
+  {
+    number: "02",
+    title: "Fitness Studio",
+    category: "Web + Content + Ads",
+    image: "/fitness.svg",
+  },
+  {
+    number: "03",
+    title: "Real Estate",
+    category: "Web + Lead Generation",
+    image: "/realestates.svg",
+  },
+  {
+    number: "04",
+    title: "Dental Practice",
+    category: "SEO + Web + Automation",
+    image: "/wellness.svg",
+  },
+];
 
   const process = [
     {
