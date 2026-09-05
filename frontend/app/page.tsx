@@ -569,12 +569,14 @@ const projects = [
                   whileHover={{ scale: 1.02 }}
                   className="group relative aspect-[16/10] overflow-hidden rounded-3xl border border-white/10 bg-white/[0.02]"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/[0.07] via-transparent to-transparent transition duration-700 group-hover:scale-110" />
-
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-8xl font-semibold tracking-[-0.06em] text-white/[0.035] md:text-9xl">
-                      {project.number}
-                    </span>
+                  <div className="absolute inset-0">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                      />
+                    
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
                   </div>
 
                   <div className="absolute inset-x-0 bottom-0 p-7">
